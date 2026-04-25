@@ -1,0 +1,21 @@
+{
+  "aws_s3_bucket": [
+    {
+      "name": "example-public-bucket",
+      "acl": "public-read"
+    }
+  ],
+  "aws_security_group": [
+    {
+      "name": "open-web-sg",
+      "ingress": [
+        {
+          "cidr_blocks": ["0.0.0.0/0"],
+          "from_port": 80,
+          "to_port": 80,
+          "protocol": "tcp"
+        }
+      ]
+    }
+  ]
+}
