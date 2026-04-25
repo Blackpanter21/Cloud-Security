@@ -48,18 +48,3 @@ source venv/bin/activate
 ./venv/bin/python scanner.py --scan terraform/main.tf --deployed-state data/deployed_state.json
 ```
 
-## Resume-ready summary
-
-- Built a local cloud security posture project using Terraform IaC scanning.
-- Developed custom detection rules for insecure AWS configuration patterns.
-- Included risk scoring, remediation guidance, and drift comparison logic.
-
-## Optional local testing
-
-If you want to explore actual runtime emulation later, install LocalStack:
-
-```bash
-python3 -m pip install localstack
-```
-
-Then you can use this repo as a sandbox for AWS-style IaC security validation without a real cloud account.
