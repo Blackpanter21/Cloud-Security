@@ -1,4 +1,4 @@
-# Cloud Security Scanner Demo
+# Cloud Security Scanner 
 
 This project is a local cloud security demo that scans Terraform infrastructure as code for common AWS security issues.
 
